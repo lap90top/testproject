@@ -2,8 +2,8 @@ package class_object;
 
 public class Laptop {
 
-       //properties of laptop:
-        String brand ="Dell";//declaration of properties
+       //properties of laptop:brand,ram,price,hard_drive
+        String brand ="Dell";//declaration(String,int,double) and initialization(value put means dell,8,68000.50,512)
         int ram    =8;
         double price =68000.50;
         int hard_drive  =512;
@@ -12,7 +12,7 @@ public class Laptop {
     public static void main(String[] args) {
       //syntax for creating object
       // CLASS_NAME OBJECT_NAME =new CLASS_NAME();
-        Laptop object = new Laptop();    //created object1
+        Laptop object = new Laptop();    //created object1 (through new we are creating object using default constructor means not give any value in bracket())
         System.out.println(object.brand);  //object.property_name
         System.out.println(object.ram);
         System.out.println(object.price);
