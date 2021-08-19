@@ -10,7 +10,7 @@ public class Laptop {
 
 
     public static void main(String[] args) {
-      //syntax for creating object
+      //syntax for creating an object
       // CLASS_NAME OBJECT_NAME =new CLASS_NAME();
         Laptop object = new Laptop();    //created object1 (through new we are creating object using default constructor means not give any value in bracket())
         System.out.println(object.brand);  //object.property_name

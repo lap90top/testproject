@@ -22,7 +22,7 @@ public class Book {
         // creating an object------// className objectName = new className();
 
         Book object1 = new Book("Java", "James Gosling", 1200);
-        System.out.println(object1.name);
+        System.out.println(object1.name);    //object.property_name
         System.out.println(object1.writer);
         System.out.println(object1.pages);
 
