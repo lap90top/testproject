@@ -15,7 +15,7 @@ public class DemoList {
         // List----parent class, ArrayList-------child class, it means in parent class ,child class will be included.
 
         //add method:
-        //syntax of list :ArrayList or List  object_name = new ArrayList();
+        //syntax of list :ArrayList or List  object_name = new ArrayList();  // without Data type
 
         List list = new ArrayList();
         list.add("Rahul");  //0 index         // here we are taking data in String form ( "Rahul","Raj","Ajay")
